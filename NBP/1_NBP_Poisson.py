@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 SubplotPos = 131
 PlotColor = (['red', 'green', 'violet'])
 LamVal = ([1., 2., 10.])
