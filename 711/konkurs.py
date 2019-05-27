@@ -18,15 +18,15 @@ def func():
                 item3 = divs[item3_ind]
                 item4 = 711 - (item1 + item2 + item3)
                 if item4 <= item3:
-                    
+
                     if ((item1 * item2 * item3 * item4) == 711000000):
                         print ("Ceny towarów [$]:", \
                                item1/100.0, item2/100.0, item3/100.0, item4/100.0)
                         print ("Liczba iteracji:", iterations)
                         return 1
-                    
+
                 item3_ind += 1
-                
+
             item2_ind += 1
             item3_ind = 0
 
